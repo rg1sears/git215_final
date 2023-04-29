@@ -1,0 +1,138 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color:#E6E6E6;
+    color: black;
+    
+}
+
+header, div, footer {
+    justify-content: center;
+    width: 1280px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, footer{
+    text-align: center;
+    background-color: #CDE8ED;
+    padding: 30px 30px 30px 30px;
+
+}
+
+h1{
+    font-size: 45px;
+
+}
+
+h2{
+    font-size: 32px;
+    word-wrap: break-word;
+}
+
+h3{
+    font-size: 24px;
+}
+
+#grid-container{
+    display: block;
+    grid-template-columns: 1.5fr 5fr;
+}
+
+nav{
+    background-color: #CDE8ED;
+    text-align: center;
+
+    
+}
+
+nav ul{
+    padding: 35px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav a{
+    background-color:#7A9BA1;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav a:hover{
+    background-color: #C0E1EB;
+    color: black;
+
+}
+
+
+
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #E6E6E6;
+	width: 300px;
+	height: 60vh; 
+	margin: 2rem auto;
+	padding: 1rem;
+
+}
+
+main a{
+    color: black;
+    text-decoration: none;
+}
+main a:hover{
+    color: #7A9BA1;
+
+}
+
+body{
+	background-color: #eaeaea;
+	font-family: sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	color: #222;
+	box-sizing: border-box;
+}
+
+img{
+    flex-wrap: wrap;
+	display: block;
+	padding: 1rem 2rem;
+	background-color: #fff;
+}
+
+
+p{
+    color: black;
+
+}
+
+#food, #chef{
+    display: inline-block;
+    position: static;
+}
